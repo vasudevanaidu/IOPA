@@ -4440,17 +4440,18 @@ header.main-header .header-sticky.active {
     padding: 50px 0 50px;
 }
 
-/* .main-header .img-logo-size{
-    width: 172px;
-    height: 72px;
+.main-header .img-logo-size{
+    width: 180px;
+    height: 75px;
     background-color: var(--secondry-color);
     border-radius: 15px;
 }
+
 .main-footer .img-logo-size{
-    width:80%;   
+    width:90%;   
     background-color: var(--secondry-color);
     border-radius: 15px;
-} */
+}
 
 .contact-name{font-weight: bold;font-size: larger;color:var(--secondry-color);margin-left: 10px;}
 .contact-info-wrapper{margin-bottom: 10px;}
