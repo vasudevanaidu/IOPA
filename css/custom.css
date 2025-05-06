@@ -1729,12 +1729,13 @@ header.main-header .header-sticky.active {
 
 .footer-copyright {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .footer-copyright-text p {
     color: var(--secondry-color);
     text-transform: capitalize;
+    font-size: 15px;
 }
 
 .footer-copyright-text p span {
@@ -4474,4 +4475,38 @@ header.main-header .header-sticky.active {
     cursor: pointer;
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-copyright {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    
+}
+
+.highlight-text {
+    color: #ff8c69; /* Orange/coral color from image */
+}
+
+.policy-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.policy-link:hover {
+    color: #ff8c69;
+}
+
+.divider {
+    color: #ff8c69;
+    margin: 0 3px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .footer-copyright-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
